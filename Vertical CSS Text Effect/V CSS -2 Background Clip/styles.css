@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    background: linear-gradient( to right, #778beb 0%, #778beb 50%, #f8a5c2 50%, #f8a5c2 100%);
+}
+
+h1 {
+    font-size: 5vw;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    white-space: nowrap;
+    background: linear-gradient( to right, #f8a5c2 0%, #f8a5c2 50%, #778beb 50%, #778beb 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
